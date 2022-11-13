@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="http://trada.info/epg.xml" tvg-shift=0 m3uautoload=1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=http://code.television4you.xyz/key.php?keyid=0c64ccfb978e7390bd33344075492aec&key=53b26f904ae03a20b56477cfb9c5dca2
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"53b26f904ae03a20b56477cfb9c5dca2", "kid":"0c64ccfb978e7390bd33344075492aec" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="ksport1hd" tvg-logo="http://phimmoi.asia/vieon/k1.png" group-title="Dmax", Dmax
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://sgn-fpt-001-livecdn-vthn-vnd.vieon.vn/fdc30253c8ea20c3a78f7b825d96bf6b/1668316471634/qnet/live_dzones/dmax.smil/manifest.mpd
+https://sgn-vtt-001-livecdn-vthn-vnd.vieon.vn/20cf070c0a04fc39a0ed2fe17f7641f3/1668448153661/qnet/live_dzones/dmax.smil/manifest.mpd
